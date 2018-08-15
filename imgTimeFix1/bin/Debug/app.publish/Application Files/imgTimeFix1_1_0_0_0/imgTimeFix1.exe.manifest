@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="imgTimeFix1.exe" version="1.0.0.0" publicKeyToken="61edd3907ff9363b" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="imgTimeFix1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="imgTimeFix1.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+         若想要更改 Windows 用户帐户控制级别，请
+         将 requestedExecutionLevel 节点替换为下述某项。
+
+       <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+       <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+       <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        若想要使用文件和注册表虚拟化以实现向后
+        兼容，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="imgTimeFix1.exe" size="16352">
+      <assemblyIdentity name="imgTimeFix1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>pq0Gkzd/e2OMk77tfiHxqGfFvVOLsc48Tsmvh6JBQyc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="imgTimeFix1.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-3EG3FIT\alexs" issuerKeyHash="652ea3ea872bfaf1bf548d62ac715929807709e9" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>p+3mIuAAEbU6O51CHHpAGT1uJ3zPkomSpPuxx05n3Dw=</DigestValue></Reference></SignedInfo><SignatureValue>Dk/I4ZPy9rqr2BYKF7NMmPhdZA9fjwNdiZ5sYnmBs6FNzyMsWK55G0lOlBnKWMhSDAQR+TeEz0R8EFYQDDglkiWNXd4k50EbovugKDtI6OxmeNvp0WZgKTWPIQiysFYihSLlMv+1ZrwZzItKa0eQGpxtZEbwdwEXRWJGCC/SE08=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>nxWwtuSGPi3cK5bDM9ufQEF9vvUH5Wq1gTQ/DSWWH8A5TxHhHujbZ+9n2BKo0Y1wcsJT7H6BBvnuoRlEaBVzufCjf7S4iVN8WYSczcxRB2o876s8B+Z5aCns+Gz+t0EdFjqhPucpSrkMeY9LWn86Mfgck73f+jiRY+Q6tJkBY+U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="3cdc674ec7b1fba4928992cf7c276e3d19407a1c429d3b3ab51100e022e6eda7" Description="" Url=""><as:assemblyIdentity name="imgTimeFix1.exe" version="1.0.0.0" publicKeyToken="61edd3907ff9363b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-3EG3FIT\alexs</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ADkci8gRAX1P2+zzYoC+BCpixvBZUaLg9fZT4atLTcY=</DigestValue></Reference></SignedInfo><SignatureValue>g7Z+psxAmq6PbU+YV2Pq5gNx9S93SA4uBr6WkYjQ/IF7662Juvsnx0wSbtGj8YtnpTkZmkalj9AryMIMdCh2giGW90QsSLbzma5ur6+tGOyBOlFoCfMlDMOJAVF29Zakv+x6IXaisv036HuGfSqzVODrZmHIC2uNm3CW0C8WjG0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>nxWwtuSGPi3cK5bDM9ufQEF9vvUH5Wq1gTQ/DSWWH8A5TxHhHujbZ+9n2BKo0Y1wcsJT7H6BBvnuoRlEaBVzufCjf7S4iVN8WYSczcxRB2o876s8B+Z5aCns+Gz+t0EdFjqhPucpSrkMeY9LWn86Mfgck73f+jiRY+Q6tJkBY+U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQZNLwVTNj6ZtENbnx78sMfjANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADMARQBHADMARgBJAFQAXABhAGwAZQB4AHMwHhcNMTgwODEyMDUxMzUxWhcNMTkwODEyMTExMzUxWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADMARQBHADMARgBJAFQAXABhAGwAZQB4AHMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJ8VsLbkhj4t3CuWwzPbn0BBfb71B+VqtYE0Pw0llh/AOU8R4R7o22fvZ9gSqNGNcHLCU+x+gQb57qEZRGgVc7nwo3+0uIlTfFmEnM3MUQdqPO+rPAfmeWgp7Phs/rdBHRY6oT7nKUq5DHmPS1p/OjH4HJO93/o4kWPkOrSZAWPlAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAQdNjVYtYxwzwWY5qR51g6zCzeVFl45N0FU0sYSuQjkfffae/lihSuIoMpugWowTZyIkRwItBmwic1qP7r9zbKJd1qt8D2GaCYSZ3tVNiGc55WeJn3HVAQPZ1vvj7Z0ICloUt1F2mWCjut/SlWDoGT98k+oUBtV0TY8Ntadv6kqw=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
